@@ -12,7 +12,6 @@ app.get('/ola', (req, res) => {
     res.status(200).send({message: 'Oi sou Ola'});
 })
 
-
 app.listen(3001, () => {
     console.log('Api rodando na porta 3001');
 })
